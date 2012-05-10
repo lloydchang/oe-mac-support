@@ -2,7 +2,13 @@
 
 set -x
 
-if (/usr/local/bin/xz --version > /dev/null) ; then
+if echo $PATH | grep /usr/local/bin > /dev/null ; then
+    :
+else
+    PATH=$PATH:/usr/local/bin
+fi
+
+if (xz --version > /dev/null) ; then
     exit 0
 fi
 
