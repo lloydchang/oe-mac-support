@@ -2,3 +2,16 @@ oe-mac-support
 ==============
 
 prerequisites for building webos on a macintosh
+
+Basically, this is a bunch of shell script which, when run, will build
+and install the necessary prerequisites.
+
+go.sh is a shell script that calls the others in turn.  Basically,
+they unpack the source, build it, and install it, in classic gnu form.
+
+
+TODO:
+
+These things should produce MacOsX packages instead, perhaps even with
+a dmg file.
+
