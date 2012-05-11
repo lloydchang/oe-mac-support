@@ -15,3 +15,9 @@ TODO:
 These things should produce MacOsX packages instead, perhaps even with
 a dmg file.
 
+
+MARKERS:
+
+pkg-config
+gnutls
+wget
