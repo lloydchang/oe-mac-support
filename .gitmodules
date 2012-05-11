@@ -1,0 +1,3 @@
+[submodule "glib"]
+	path = glib
+	url = git://git.gnome.org/glib
